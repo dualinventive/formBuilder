@@ -746,10 +746,10 @@ export default class Helpers {
    */
   toggleEdit(fieldId, animate = true) {
     const field = document.getElementById(fieldId)
-    const $editPanel = $('.frm-holder', field)
-    const $preview = $('.prev-holder', field)
+    const $editPanel = $('> .frm-holder', field)
+    const $preview = $('> .prev-holder', field)
     field.classList.toggle('editing')
-    $('.toggle-form', field).toggleClass('open')
+    $('> .field-actions .toggle-form', field).toggleClass('open')
     if (animate) {
       $preview.slideToggle(250)
       $editPanel.slideToggle(250)
