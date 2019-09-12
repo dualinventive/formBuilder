@@ -4,7 +4,7 @@
   "main": "dist/form-builder.min.js",
   "homepage": "https://formbuilder.online/",
   "repository": {
-    "url": "https://github.com/kevinchappell/formBuilder.git",
+    "url": "https://github.com/dualinventive/formBuilder.git",
     "type": "git"
   },
   "files": [
@@ -86,7 +86,7 @@
     "docs": "mkdocs build",
     "font": "babel-node tools/icon-font",
     "lint": "eslint ./src --ext .js || true",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --no-ci",
     "start:devServer": "webpack-dev-server --mode development --open --config tools/webpack.config",
     "prestart": "npm run build:vendor",
     "start": "npm run start:devServer",
@@ -202,12 +202,10 @@
     "branch": "master",
     "verifyConditions": [
       "@semantic-release/changelog",
-      "@semantic-release/npm",
       "@semantic-release/git"
     ],
     "prepare": [
       "@semantic-release/changelog",
-      "@semantic-release/npm",
       "@semantic-release/git"
     ]
   },

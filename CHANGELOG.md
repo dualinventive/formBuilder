@@ -1,3 +1,16 @@
+# [3.3.0](https://github.com/dualinventive/formBuilder/compare/v3.2.5...v3.3.0) (2019-09-12)
+
+
+### Bug Fixes
+
+* **edit:** Made selectors more specific when toggling edit panel so when using a nested form builder these aren't affected. ([#3](https://github.com/dualinventive/formBuilder/issues/3)) ([76df0da](https://github.com/dualinventive/formBuilder/commit/76df0da))
+* **style:** Removed background color change to white on hovering over any element. ([2515613](https://github.com/dualinventive/formBuilder/commit/2515613))
+
+
+### Features
+
+* **preview:** Added the JQuery field element to the preview data so it can be easily detected what field contains the control. ([#1](https://github.com/dualinventive/formBuilder/issues/1)) ([b97cb18](https://github.com/dualinventive/formBuilder/commit/b97cb18))
+
 ## [3.2.5](https://github.com/kevinchappell/formBuilder/compare/v3.2.4...v3.2.5) (2019-06-26)
 
 
