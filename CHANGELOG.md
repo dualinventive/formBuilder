@@ -1,3 +1,10 @@
+## [3.3.1](https://github.com/dualinventive/formBuilder/compare/v3.3.0...v3.3.1) (2019-09-18)
+
+
+### Bug Fixes
+
+* **dist:** Added dist files. ([336cd95](https://github.com/dualinventive/formBuilder/commit/336cd95))
+
 # [3.3.0](https://github.com/dualinventive/formBuilder/compare/v3.2.5...v3.3.0) (2019-09-12)
 
 
