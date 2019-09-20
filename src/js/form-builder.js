@@ -1135,7 +1135,7 @@ const FormBuilder = function(opts, element, $) {
           selectedOption.checked = e.target.value === options[i].value
         })
       } else {
-        prevOptions = document.getElementsByName(e.target.name)
+        prevOptions = $(field).find('[name="' + e.target.name + '"]').get()
         forEach(prevOptions, i => {
           const selectedOption = options[i].parentElement.childNodes[0]
           selectedOption.checked = prevOptions[i].checked
