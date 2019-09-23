@@ -1050,6 +1050,7 @@ const FormBuilder = function(opts, element, $) {
     const field = $field[0]
     const type = field.getAttribute('type')
     const $option = $(e.target.parentElement)
+    const liIndex = $option.index()
     e.preventDefault()
     const options = field.querySelector('.sortable-options')
     const optionsCount = options.childNodes.length
@@ -1060,6 +1061,7 @@ const FormBuilder = function(opts, element, $) {
         $option.remove()
         h.updatePreview($field)
         h.save.call(h)
+        $field.trigger('optionremoved.formBuilder', [liIndex])
       })
     }
   })

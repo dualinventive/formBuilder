@@ -345,11 +345,11 @@ export default class Helpers {
     const _this = this
     const d = this.d
     const fieldClass = $field.attr('class')
-    const field = $field[0]
-    if (fieldClass.includes('input-control')) {
+    if ($field.length === 0 || fieldClass && fieldClass.includes('input-control')) {
       return
     }
 
+    const field = $field[0]
     const fieldType = $field.attr('type')
     const $prevHolder = $('.prev-holder', field)
     let previewData = Object.assign({}, _this.getAttrVals(field, previewData), { type: fieldType })
