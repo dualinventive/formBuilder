@@ -1,3 +1,15 @@
+# [3.4.0](https://github.com/dualinventive/formBuilder/compare/v3.3.1...v3.4.0) (2019-09-27)
+
+
+### Bug Fixes
+
+* **attribute:** Disabled the attributes min, max and step as they interfere with restoring the equally named field attributes, using `setData`. ([#4](https://github.com/dualinventive/formBuilder/issues/4)) ([8818e49](https://github.com/dualinventive/formBuilder/commit/8818e49))
+
+
+### Features
+
+* **option:** Added `optionremoved` event. ([#6](https://github.com/dualinventive/formBuilder/issues/6)) ([53debc3](https://github.com/dualinventive/formBuilder/commit/53debc3))
+
 ## [3.3.1](https://github.com/dualinventive/formBuilder/compare/v3.3.0...v3.3.1) (2019-09-18)
 
 
