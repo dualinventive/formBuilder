@@ -1,5 +1,7 @@
 import mi18n from 'mi18n'
 
+const noop = () => null
+
 // eslint-disable-next-line
 mi18n.addLanguage('en-US', FB_EN_US)
 
@@ -39,15 +41,25 @@ export const defaultOptions = {
   fieldEditContainer: null, // DOM node or selector
   inputSets: [], // add groups of fields at a time
   notify: {
-    error: console.error,
-    success: console.log,
-    warning: console.warn,
+    error: error => {
+      console.log(error)
+    },
+    success: success => {
+      console.log(success)
+    },
+    warning: warning => {
+      console.warn(warning)
+    },
   },
-  onAddField: (fieldData, fieldId) => fieldData,
-  onClearAll: () => null,
-  onCloseFieldEdit: () => null,
-  onOpenFieldEdit: () => null,
-  onSave: (evt, formData) => null,
+  onAddField: (fieldId, fieldData) => fieldData,
+  onClearAll: noop,
+  onCloseFieldEdit: noop,
+  onOpenFieldEdit: noop,
+  /**
+   * @param {Object} evt
+   * @param {Object} formData
+   */
+  onSave: noop,
   prepend: false,
   replaceFields: [],
   roles: {

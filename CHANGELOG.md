@@ -1,34 +1,92 @@
-# [3.4.0](https://github.com/dualinventive/formBuilder/compare/v3.3.1...v3.4.0) (2019-09-27)
+## [3.4.2](https://github.com/kevinchappell/formBuilder/compare/v3.4.1...v3.4.2) (2020-03-04)
 
 
 ### Bug Fixes
 
+* clone id bug ([82c29a9](https://github.com/kevinchappell/formBuilder/commit/82c29a9448ce31b247a24fb2c678f101bfb04cd0))
+
+## [3.4.1](https://github.com/kevinchappell/formBuilder/compare/v3.4.0...v3.4.1) (2020-03-02)
+
+
+### Bug Fixes
+
+* multiple attribute added to select ([bb04cd4](https://github.com/kevinchappell/formBuilder/commit/bb04cd4fa41a73520aec669da370699a2c900544))
+
+# [3.4.0](https://github.com/kevinchappell/formBuilder/compare/v3.3.4...v3.4.0) (2020-02-02)
+
+
+### Bug Fixes
+
+* website generation and deployment ([6ba8ce0](https://github.com/kevinchappell/formBuilder/commit/6ba8ce094c2b28853413613f46581f7cc79702e3))
 * **attribute:** Disabled the attributes min, max and step as they interfere with restoring the equally named field attributes, using `setData`. ([#4](https://github.com/dualinventive/formBuilder/issues/4)) ([8818e49](https://github.com/dualinventive/formBuilder/commit/8818e49))
 
 
 ### Features
 
+* **editor:** hidden field labels ([f9b648c](https://github.com/kevinchappell/formBuilder/commit/f9b648c109584202b5d739886b5d449e8807f94c))
 * **option:** Added `optionremoved` event. ([#6](https://github.com/dualinventive/formBuilder/issues/6)) ([53debc3](https://github.com/dualinventive/formBuilder/commit/53debc3))
 
-## [3.3.1](https://github.com/dualinventive/formBuilder/compare/v3.3.0...v3.3.1) (2019-09-18)
+
+## [3.3.5](https://github.com/kevinchappell/formBuilder/compare/v3.3.4...v3.3.5) (2020-02-02)
 
 
 ### Bug Fixes
 
+* website generation and deployment ([6ba8ce0](https://github.com/kevinchappell/formBuilder/commit/6ba8ce094c2b28853413613f46581f7cc79702e3))
 * **dist:** Added dist files. ([336cd95](https://github.com/dualinventive/formBuilder/commit/336cd95))
 
-# [3.3.0](https://github.com/dualinventive/formBuilder/compare/v3.2.5...v3.3.0) (2019-09-12)
+
+## [3.3.4](https://github.com/kevinchappell/formBuilder/compare/v3.3.3...v3.3.4) (2020-02-01)
 
 
 ### Bug Fixes
 
+* update dependencies ([2c81e41](https://github.com/kevinchappell/formBuilder/commit/2c81e4114870abb5b49e9fc780e22d791d6e845c))
+
+## [3.3.3](https://github.com/kevinchappell/formBuilder/compare/v3.3.2...v3.3.3) (2020-02-01)
+
+
+### Bug Fixes
+
+* travis deploy ([127909d](https://github.com/kevinchappell/formBuilder/commit/127909d5e36416d1bdab8356884317d724ddd0bb))
+* travis node version, include docs in dist package ([78799a5](https://github.com/kevinchappell/formBuilder/commit/78799a520f6af0bea7800ccfb27473a6a60844a7))
+
+## [3.3.2](https://github.com/kevinchappell/formBuilder/compare/v3.3.1...v3.3.2) (2020-01-31)
+
+
+### Bug Fixes
+
+* build ([55721ec](https://github.com/kevinchappell/formBuilder/commit/55721ec85dc55f289d46d1ead3941bdbbdc66f21))
+
+## [3.3.1](https://github.com/kevinchappell/formBuilder/compare/v3.3.0...v3.3.1) (2020-01-28)
+
+
+### Bug Fixes
+
+* field removed from stage but not formData ([2c6d824](https://github.com/kevinchappell/formBuilder/commit/2c6d824fe5dcbe413440b3c3fa59b5944e1c5bf9)), closes [#1028](https://github.com/kevinchappell/formBuilder/issues/1028)
+
+# [3.3.0](https://github.com/kevinchappell/formBuilder/compare/v3.2.6...v3.3.0) (2020-01-26)
+
+
+### Bug Fixes
+
+* **demo:** clear current id when removed from stage ([e0c0f2e](https://github.com/kevinchappell/formBuilder/commit/e0c0f2ea8f204da6e11d8de938e27ca6687d5588))
 * **edit:** Made selectors more specific when toggling edit panel so when using a nested form builder these aren't affected. ([#3](https://github.com/dualinventive/formBuilder/issues/3)) ([76df0da](https://github.com/dualinventive/formBuilder/commit/76df0da))
 * **style:** Removed background color change to white on hovering over any element. ([2515613](https://github.com/dualinventive/formBuilder/commit/2515613))
 
 
 ### Features
 
+* getCurrentFieldId ([c0148b3](https://github.com/kevinchappell/formBuilder/commit/c0148b33dc7154e2bc2a241255b7a2db6257534f)), closes [#571](https://github.com/kevinchappell/formBuilder/issues/571)
 * **preview:** Added the JQuery field element to the preview data so it can be easily detected what field contains the control. ([#1](https://github.com/dualinventive/formBuilder/issues/1)) ([b97cb18](https://github.com/dualinventive/formBuilder/commit/b97cb18))
+
+
+## [3.2.6](https://github.com/kevinchappell/formBuilder/compare/v3.2.5...v3.2.6) (2019-12-31)
+
+
+### Bug Fixes
+
+* adblock because of fb- prefix ([e091474](https://github.com/kevinchappell/formBuilder/commit/e091474219cba88ff0c950649de62ec0de9ab414))
 
 ## [3.2.5](https://github.com/kevinchappell/formBuilder/compare/v3.2.4...v3.2.5) (2019-06-26)
 
