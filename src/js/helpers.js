@@ -383,6 +383,7 @@ export default class Helpers {
     empty($prevHolder[0])
     $prevHolder[0].appendChild(preview)
     preview.dispatchEvent(events.fieldRendered)
+    $field.trigger('previewUpdated.formBuilder', [$prevHolder])
   }
 
   /**
